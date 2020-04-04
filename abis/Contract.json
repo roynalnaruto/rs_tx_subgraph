@@ -1,0 +1,40 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "noncePointX",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "noncePointY",
+        "type": "uint256"
+      }
+    ],
+    "name": "NewRsTx",
+    "type": "event"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "internalType": "address", "name": "to", "type": "address" },
+      { "internalType": "uint256", "name": "noncePointX", "type": "uint256" },
+      { "internalType": "uint256", "name": "noncePointY", "type": "uint256" }
+    ],
+    "name": "rsTx",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
