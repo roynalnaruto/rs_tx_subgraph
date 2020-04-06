@@ -2,4 +2,5 @@ type ExampleEntity @entity {
   id: ID!
   noncePointX: BigInt! # uint256
   noncePointY: BigInt! # uint256
+  encryptedRecipient: Bytes! # bytes
 }
