@@ -5,9 +5,9 @@
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ roynalnaruto/rs_tx_subgraph",
-    "create-local": "graph create --node http://localhost:8020/ roynalnaruto/rs_tx_subgraph",
-    "remove-local": "graph remove --node http://localhost:8020/ roynalnaruto/rs_tx_subgraph",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 roynalnaruto/rs_tx_subgraph"
+    "create-local": "graph create --node http://127.0.0.1:8020/ roynalnaruto/rs_tx_subgraph",
+    "remove-local": "graph remove --node http://127.0.0.1:8020/ roynalnaruto/rs_tx_subgraph",
+    "deploy-local": "graph deploy --node http://127.0.0.1:8020/ --ipfs http://localhost:5001 roynalnaruto/rs_tx_subgraph"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.17.1",
