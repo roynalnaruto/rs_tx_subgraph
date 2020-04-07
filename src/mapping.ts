@@ -10,8 +10,7 @@ export function handleNewRsTx(event: NewRsTx): void {
     entity = new ExampleEntity(id)
   }
 
-  entity.noncePointX = event.params.noncePointX
-  entity.noncePointY = event.params.noncePointY
+  entity.noncePoint = event.params.noncePoint
   entity.encryptedRecipient = event.params.encryptedRecipient
 
   entity.save()

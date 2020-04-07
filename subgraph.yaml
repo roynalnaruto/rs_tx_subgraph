@@ -6,7 +6,7 @@ dataSources:
     name: Contract
     network: development
     source:
-      address: "0xd9F9304329451Dd31908BC61C0F87e2AA90aacD6"
+      address: "0xF52deFbC1A0b43395f55F3F23C8F22865a6cBF53"
       abi: Contract
     mapping:
       kind: ethereum/events
@@ -18,6 +18,6 @@ dataSources:
         - name: Contract
           file: ./abis/Contract.json
       eventHandlers:
-        - event: NewRsTx(uint256,uint256,bytes)
+        - event: NewRsTx(bytes,bytes)
           handler: handleNewRsTx
       file: ./src/mapping.ts
