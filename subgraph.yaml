@@ -6,7 +6,7 @@ dataSources:
     name: Contract
     network: development
     source:
-      address: "0xF52deFbC1A0b43395f55F3F23C8F22865a6cBF53"
+      address: "0xd9F9304329451Dd31908BC61C0F87e2AA90aacD6"
       abi: Contract
     mapping:
       kind: ethereum/events

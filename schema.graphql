@@ -1,4 +1,4 @@
-type ExampleEntity @entity {
+type Transaction @entity {
   id: ID!
   noncePoint: Bytes! # bytes
   encryptedRecipient: Bytes! # bytes
