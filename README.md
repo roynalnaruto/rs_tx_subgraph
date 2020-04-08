@@ -46,3 +46,6 @@ yarn create-local
 ```
 yarn deploy-local
 ```
+
+# License
+[In detail here](https://github.com/roynalnaruto/rs_tx_subgraph/blob/master/LICENSE.md)
