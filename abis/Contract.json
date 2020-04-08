@@ -3,6 +3,12 @@
     "anonymous": false,
     "inputs": [
       {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "block",
+        "type": "uint256"
+      },
+      {
         "indexed": false,
         "internalType": "bytes",
         "name": "noncePoint",
@@ -21,8 +27,16 @@
   {
     "constant": false,
     "inputs": [
-      { "internalType": "bytes", "name": "noncePoint", "type": "bytes" },
-      { "internalType": "bytes", "name": "encryptedRecipient", "type": "bytes" }
+      {
+        "internalType": "bytes",
+        "name": "noncePoint",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "encryptedRecipient",
+        "type": "bytes"
+      }
     ],
     "name": "rsTx",
     "outputs": [],

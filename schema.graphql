@@ -1,5 +1,6 @@
 type Transaction @entity {
   id: ID!
+  block: BigInt! # uint256
   noncePoint: Bytes! # bytes
   encryptedRecipient: Bytes! # bytes
 }
